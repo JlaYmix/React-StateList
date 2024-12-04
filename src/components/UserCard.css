@@ -1,0 +1,30 @@
+* {
+    inset: 0;
+    box-sizing: border-box;
+}
+
+/* Загальна оболочка */
+.user-card {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Стилі для чоловіків */
+.male {
+    background-color: #b3e0ff;
+    color: #004d80;
+}
+
+/* Стилі для жінок */
+.female {
+    background-color: #ffb3d9;
+    color: #800080; 
+}
+
+/* Стиль для всіх користувачів */
+.other {
+    background-color: #f2f2f2; 
+    color: #666666; 
+}
